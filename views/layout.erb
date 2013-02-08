@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang='en'>
+  <head>
+    <meta charset='utf-8'>
+    <link rel='stylesheet' href='/bootstrap/css/bootstrap.css'>
+    <link rel='stylesheet' href='/css/style.css'>
+    <script src='/js/jquery-1.9.1.js'></script>
+    <script src='/bootstrap/js/boostrap.js'></script>
+    <title>Welcome to Friends!</title>
+  </head>
+  <body>
+    <div class="navbar navbar-inverse navbar navbar-fixed-top" id="navsize">
+      <div class="navbar-inner">
+        <ul class="nav">
+          <div class="row">
+            <div class="span4">
+              <li><a href="/home">Home</a></li>
+            </div>
+            <div class="span4">
+              <li><a href="/new">Add a Friend</a></li>
+            </div>
+            <div class="span4">
+              <li><a href="/friends">View My Friends!</a></li>
+            </div>
+          </div>
+        </ul>
+      </div>
+    </div>
+
+    <%= yield %>
+
+  </body>
+</html>

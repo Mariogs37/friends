@@ -1,0 +1,12 @@
+<section>
+  <% @rows.each do |row| %>
+
+    <div id = "name"><strong>Name:</strong> <%= row['name'] %></div>
+    <div id = "age"><strong>Age:</strong> <%= row['age'] %></div>
+    <div id = "gender"><strong>Gender:</strong> <%= row['gender'] %></div>
+    <div id = "image"><strong>Image:</strong> <img src='<%= row['image'] %>'></div>
+    <div id = "twitter"><strong>Twitter URL:</strong> <%= row['twitter'] %>'></div>
+    <div id = "github"><strong>Github URL:</strong> <%= row['github'] %>'></div>
+
+  <% end %>
+</section>
